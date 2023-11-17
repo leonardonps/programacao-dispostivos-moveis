@@ -7,6 +7,7 @@ import Aleatorio from "./src/componentes/Aleatorio";
 import MaxMin from "./src/componentes/MaxMin";
 import gerarNumeroAleatorio from "./src/utils/GerarNumeroAleatorio";
 import Contador from "./src/componentes/Contador";
+import Formulario from "./src/componentes/Formulario";
 
 export default () =>  {
         return (
@@ -19,8 +20,10 @@ export default () =>  {
                 <Comp2/>
                 <Comp3/>
                 <Primeiro/>
-                <PrimeiroProps numero={10}/> */}
+                <PrimeiroProps numero={10}/> 
                 <Contador/>
+                */}
+                <Formulario/>
             </View>
         )
     
